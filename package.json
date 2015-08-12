@@ -1,0 +1,39 @@
+{
+  "name": "difi-cli",
+  "version": "1.0.0",
+  "description": "CLI for the hotell.difi.no API",
+  "license": "MIT",
+  "author": {
+    "name": "Geir Gåsodden",
+    "email": "geir.gasodden@pythonia.no",
+    "url": "https://github.com/zrrrzzt"
+  },
+  "main": "cli.js",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/zrrrzzt/difi-cli.git"
+  },
+  "bugs": {
+    "url": "http://github.com/zrrrzzt/difi-cli/issues"
+  },
+  "bin": {
+    "difi": "cli.js"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "standard && tap --reporter=spec test/*.js",
+    "coverage": "tap test/*.js --coverage",
+    "coveralls": "tap --cov --coverage-report=lcov test/*.js && cat coverage/lcov.info | coveralls"
+  },
+  "dependencies": {
+    "difi": "^2.0.1",
+    "minimist": "^1.1.3"
+  },
+  "devDependencies": {
+    "coveralls": "^2.11.3",
+    "standard": "^5.0.2",
+    "tap": "^1.3.2"
+  }
+}

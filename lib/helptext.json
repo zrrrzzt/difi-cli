@@ -1,0 +1,10 @@
+[
+  "Usage: ",
+  "",
+  " $ difi <dataset> --query=<query>",
+  "",
+  "Optionally pass return format",
+  "Available formats: csv, json, jsonp, xml or yaml (default)",
+  "",
+  " $ difi <dataset> --query=<query> --format=<format>"
+]
