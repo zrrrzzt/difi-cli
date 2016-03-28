@@ -43,7 +43,7 @@ Build
 $ docker build -t difi-cli .
 ```
 
-Run a container with arguments described in **Usage**
+Run a container with arguments described in **Usage**. Use environment variables to specify input.
 
 ```sh
 $ docker run --rm -e DATASET=<dataset> -e QUERY=<query> -e FORMAT=<format> difi-cli
