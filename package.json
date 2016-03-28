@@ -33,8 +33,8 @@
     "minimist": "1.2.0"
   },
   "devDependencies": {
-    "coveralls": "^2.11.3",
-    "standard": "^5.0.2",
-    "tap": "^1.3.2"
+    "coveralls": "2.11.9",
+    "standard": "6.0.8",
+    "tap": "5.7.0"
   }
 }

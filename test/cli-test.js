@@ -43,6 +43,9 @@ tap.test('It returns version with -v flag', function versionWithV (test) {
 
 tap.test('It returns error on error', function testError (test) {
   exec('./cli.js', ['npmlovesyou', '--query', 'do you love npm'], function versionWithV (error, stdout, stderr) {
+    if (error) {
+      throw error
+    }
     test.ok(stderr.toString().trim(), 'Error OK')
     test.end()
   })
@@ -50,6 +53,9 @@ tap.test('It returns error on error', function testError (test) {
 
 tap.test('It returns data', function testError (test) {
   exec('./cli.js', ['brreg/enhetsregisteret', '--query', 'Pythonia'], function versionWithV (error, stdout, stderr) {
+    if (error) {
+      throw error
+    }
     test.ok(stdout.toString().trim(), 'Data OK')
     test.end()
   })
