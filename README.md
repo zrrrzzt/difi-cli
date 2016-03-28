@@ -35,6 +35,24 @@ To display version
 $ difi --version
 ```
 
+## Docker
+
+## Docker
+To run this module as a service use the docker image.
+
+Build
+```sh
+$ docker build -t difi-cli .
+```
+
+Run a container with arguments described in **Usage**
+
+```sh
+$ docker run --rm difi-cli <dataset> --query=<query> --format=<format>
+```
+
+This will spin up a container. Do the job. Shut it down and remove it.
+
 ## Related
 
 - [difi](https://github.com/zrrrzzt/difi) The API for this module
