@@ -36,8 +36,6 @@ $ difi --version
 ```
 
 ## Docker
-
-## Docker
 To run this module as a service use the docker image.
 
 Build
@@ -48,7 +46,7 @@ $ docker build -t difi-cli .
 Run a container with arguments described in **Usage**
 
 ```sh
-$ docker run --rm difi-cli <dataset> --query=<query> --format=<format>
+$ docker run --rm -e DATASET=<dataset> -e QUERY=<query> -e FORMAT=<format> difi-cli
 ```
 
 This will spin up a container. Do the job. Shut it down and remove it.

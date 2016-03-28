@@ -25,4 +25,4 @@ WORKDIR "/src"
 RUN npm install --production
 
 # Startup
-ENTRYPOINT node cli.js
+ENTRYPOINT node cli.js --dataset=$DATASET --query=$QUERY --format=$FORMAT

@@ -33,6 +33,6 @@ difi(opts, function (error, data) {
     console.error(error)
     process.exit(1)
   } else {
-    console.log(data)
+    console.log(opts.format === 'json' ? JSON.stringify(data, null, 2) : data)
   }
 })
