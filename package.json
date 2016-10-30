@@ -1,6 +1,6 @@
 {
   "name": "difi-cli",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "CLI for the hotell.difi.no API",
   "license": "MIT",
   "author": {
@@ -21,7 +21,7 @@
   },
   "preferGlobal": true,
   "engines": {
-    "node": ">=4.6.0"
+    "node": ">=4.6.1"
   },
   "scripts": {
     "setup": "npm install && node setup.js",
