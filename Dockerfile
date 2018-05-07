@@ -1,14 +1,5 @@
-###########################################################
-#
-# Dockerfile for difi-cli
-#
-###########################################################
-
-# Setting the base to nodejs 4.6.1
-FROM mhart/alpine-node:4.9.1@sha256:052772af605978749631e2b6d190c7d68dc607a480a6e4dbe84eaf7264759d2e
-
-# Maintainer
-MAINTAINER Geir Gåsodden
+# Setting the base to nodejs 8.11.1
+FROM node:8.11.1-alpine
 
 #### Begin setup ####
 
