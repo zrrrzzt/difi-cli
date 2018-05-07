@@ -5,7 +5,7 @@
 ###########################################################
 
 # Setting the base to nodejs 4.6.1
-FROM mhart/alpine-node:4.6.1@sha256:7cdb9fe36a9811d3c77c8c643b57b78fc21ac69c1e1ddda93ca785f82617fbbd
+FROM mhart/alpine-node:4.9.1@sha256:052772af605978749631e2b6d190c7d68dc607a480a6e4dbe84eaf7264759d2e
 
 # Maintainer
 MAINTAINER Geir Gåsodden
