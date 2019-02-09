@@ -1,11 +1,11 @@
 #!/usr/bin/env node
 (async () => {
-  var difi = require('difi')
-  var pkg = require('./package.json')
-  var getHelpText = require('./lib/getHelpText')
-  var query = process.argv[2]
-  var argv = require('minimist')((process.argv.slice(2)))
-  var opts = {
+  const difi = require('difi')
+  const pkg = require('./package.json')
+  const getHelpText = require('./lib/getHelpText')
+  const query = process.argv[2]
+  const argv = require('minimist')((process.argv.slice(2)))
+  const opts = {
     dataset: argv.dataset,
     format: argv.format || 'yaml',
     query: {
