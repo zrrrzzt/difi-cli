@@ -5,7 +5,7 @@
   const getHelpText = require('./lib/getHelpText')
   const query = process.argv[2]
   const argv = require('minimist')((process.argv.slice(2)))
-  const opts = {
+  let options = {
     dataset: argv.dataset,
     format: argv.format || 'yaml',
     query: {
@@ -24,12 +24,12 @@
   }
 
   if (query.indexOf('--') === -1) {
-    opts.dataset = argv._[0]
+    options.dataset = argv._[0]
   }
 
   try {
-    const data = await difi(opts)
-    console.log(opts.format === 'json' ? JSON.stringify(data, null, 2) : data)
+    const data = await difi(options)
+    console.log(options.format === 'json' ? JSON.stringify(data, null, 2) : data)
   } catch (error) {
     console.error(error)
     process.exit(1)
