@@ -22,7 +22,7 @@
   },
   "preferGlobal": true,
   "engines": {
-    "node": ">=8.11.1"
+    "node": ">=8.15.0"
   },
   "scripts": {
     "test": "standard && nsp check && tap --reporter=spec test/**/*.js",
