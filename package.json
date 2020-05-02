@@ -1,6 +1,6 @@
 {
   "name": "difi-cli",
-  "version": "3.0.3",
+  "version": "4.0.0",
   "description": "CLI for the hotell.difi.no API",
   "license": "MIT",
   "author": {
