@@ -5,7 +5,7 @@
   const getHelpText = require('./lib/getHelpText')
   const query = process.argv[2]
   const argv = require('minimist')((process.argv.slice(2)))
-  let options = {
+  const options = {
     dataset: argv.dataset,
     format: argv.format || 'yaml',
     query: {
