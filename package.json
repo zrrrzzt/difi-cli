@@ -32,7 +32,7 @@
     "refresh": "rm -rf node_modules && rm package-lock.json && npm install"
   },
   "dependencies": {
-    "difi": "5.0.3",
+    "difi": "6.0.0",
     "minimist": "1.2.5"
   },
   "devDependencies": {
