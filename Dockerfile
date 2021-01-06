@@ -1,6 +1,4 @@
-# Setting the base to nodejs 8.11.1
-FROM node:8.17.0-alpine@sha256:c8456a06563920080bdc01715626c1be8211edc8cd18f34f15e1b7b936e30746
-
+FROM node:14.15.5-alpine
 #### Begin setup ####
 
 # Installs git
