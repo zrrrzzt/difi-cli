@@ -1,4 +1,4 @@
-FROM node:14.20.0-alpine
+FROM node:21.3.0-alpine
 #### Begin setup ####
 
 # Installs git
