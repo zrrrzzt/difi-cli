@@ -33,7 +33,7 @@
   },
   "dependencies": {
     "difi": "6.0.3",
-    "minimist": "1.2.6"
+    "minimist": "1.2.8"
   },
   "devDependencies": {
     "coveralls": "3.1.1",
